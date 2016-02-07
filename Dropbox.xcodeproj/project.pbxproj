@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		072115001C66C2870057ACD2 /* TroubleSigningInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072114FF1C66C2870057ACD2 /* TroubleSigningInViewController.swift */; };
+		0794EA1B1C6690010025CD87 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0794EA1A1C6690010025CD87 /* SettingsViewController.swift */; };
+		0794EA1D1C66A4410025CD87 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0794EA1C1C66A4410025CD87 /* TermsViewController.swift */; };
 		07F3A2911C6349CB00A7DA2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3A2901C6349CB00A7DA2B /* AppDelegate.swift */; };
 		07F3A2931C6349CB00A7DA2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3A2921C6349CB00A7DA2B /* ViewController.swift */; };
 		07F3A2961C6349CB00A7DA2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F3A2941C6349CB00A7DA2B /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		072114FF1C66C2870057ACD2 /* TroubleSigningInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleSigningInViewController.swift; sourceTree = "<group>"; };
+		0794EA1A1C6690010025CD87 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0794EA1C1C66A4410025CD87 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		07F3A28D1C6349CB00A7DA2B /* Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F3A2901C6349CB00A7DA2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F3A2921C6349CB00A7DA2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 				07F3A2901C6349CB00A7DA2B /* AppDelegate.swift */,
 				07F3A2921C6349CB00A7DA2B /* ViewController.swift */,
 				07F3A2941C6349CB00A7DA2B /* Main.storyboard */,
+				072114FF1C66C2870057ACD2 /* TroubleSigningInViewController.swift */,
+				0794EA1C1C66A4410025CD87 /* TermsViewController.swift */,
+				0794EA1A1C6690010025CD87 /* SettingsViewController.swift */,
 				07F3A2971C6349CB00A7DA2B /* Assets.xcassets */,
 				07F3A2991C6349CB00A7DA2B /* LaunchScreen.storyboard */,
 				07F3A29C1C6349CB00A7DA2B /* Info.plist */,
@@ -258,6 +267,9 @@
 			files = (
 				07F3A2931C6349CB00A7DA2B /* ViewController.swift in Sources */,
 				07F3A2911C6349CB00A7DA2B /* AppDelegate.swift in Sources */,
+				0794EA1B1C6690010025CD87 /* SettingsViewController.swift in Sources */,
+				072115001C66C2870057ACD2 /* TroubleSigningInViewController.swift in Sources */,
+				0794EA1D1C66A4410025CD87 /* TermsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,7 @@
 				07F3A2B71C6349CB00A7DA2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07F3A2B81C6349CB00A7DA2B /* Build configuration list for PBXNativeTarget "DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				07F3A2BA1C6349CB00A7DA2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07F3A2BB1C6349CB00A7DA2B /* Build configuration list for PBXNativeTarget "DropboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				07F3A2BD1C6349CB00A7DA2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
