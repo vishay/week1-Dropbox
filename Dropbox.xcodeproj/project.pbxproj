@@ -11,11 +11,11 @@
 		0794EA1B1C6690010025CD87 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0794EA1A1C6690010025CD87 /* SettingsViewController.swift */; };
 		0794EA1D1C66A4410025CD87 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0794EA1C1C66A4410025CD87 /* TermsViewController.swift */; };
 		07ECF9131C6704D1007C385B /* ExistingUserFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECF9121C6704D1007C385B /* ExistingUserFilesViewController.swift */; };
-		07ECF9151C67136F007C385B /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECF9141C67136F007C385B /* CreateAccountRootViewController.swift */; };
 		07ECF9171C67138D007C385B /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECF9161C67138D007C385B /* SignInRootViewController.swift */; };
 		07ECF9191C6713DB007C385B /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECF9181C6713DB007C385B /* CreateAccountViewController.swift */; };
 		07ECF91B1C6713F0007C385B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECF91A1C6713F0007C385B /* SignInViewController.swift */; };
-		07ECF9211C686774007C385B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 07ECF9201C686774007C385B /* README.md */; };
+		07ECF9231C687297007C385B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 07ECF9221C687297007C385B /* README.md */; };
+		07ECF9251C6872A1007C385B /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECF9241C6872A1007C385B /* CreateAccountRootViewController.swift */; };
 		07F3A2911C6349CB00A7DA2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3A2901C6349CB00A7DA2B /* AppDelegate.swift */; };
 		07F3A2931C6349CB00A7DA2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3A2921C6349CB00A7DA2B /* ViewController.swift */; };
 		07F3A2961C6349CB00A7DA2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F3A2941C6349CB00A7DA2B /* Main.storyboard */; };
@@ -47,11 +47,11 @@
 		0794EA1A1C6690010025CD87 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0794EA1C1C66A4410025CD87 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		07ECF9121C6704D1007C385B /* ExistingUserFilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingUserFilesViewController.swift; sourceTree = "<group>"; };
-		07ECF9141C67136F007C385B /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAccountRootViewController.swift; path = ../CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		07ECF9161C67138D007C385B /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		07ECF9181C6713DB007C385B /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		07ECF91A1C6713F0007C385B /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		07ECF9201C686774007C385B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		07ECF9221C687297007C385B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		07ECF9241C6872A1007C385B /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		07F3A28D1C6349CB00A7DA2B /* Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F3A2901C6349CB00A7DA2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F3A2921C6349CB00A7DA2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +95,7 @@
 		07F3A2841C6349CB00A7DA2B = {
 			isa = PBXGroup;
 			children = (
+				07ECF9221C687297007C385B /* README.md */,
 				07F3A28F1C6349CB00A7DA2B /* Dropbox */,
 				07F3A2A41C6349CB00A7DA2B /* DropboxTests */,
 				07F3A2AF1C6349CB00A7DA2B /* DropboxUITests */,
@@ -115,11 +116,10 @@
 		07F3A28F1C6349CB00A7DA2B /* Dropbox */ = {
 			isa = PBXGroup;
 			children = (
+				07ECF9241C6872A1007C385B /* CreateAccountRootViewController.swift */,
 				07F3A2901C6349CB00A7DA2B /* AppDelegate.swift */,
 				07F3A2921C6349CB00A7DA2B /* ViewController.swift */,
 				07F3A2941C6349CB00A7DA2B /* Main.storyboard */,
-				07ECF9201C686774007C385B /* README.md */,
-				07ECF9141C67136F007C385B /* CreateAccountRootViewController.swift */,
 				07ECF9181C6713DB007C385B /* CreateAccountViewController.swift */,
 				072114FF1C66C2870057ACD2 /* TroubleSigningInViewController.swift */,
 				0794EA1C1C66A4410025CD87 /* TermsViewController.swift */,
@@ -283,16 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07ECF9151C67136F007C385B /* CreateAccountRootViewController.swift in Sources */,
 				07ECF9131C6704D1007C385B /* ExistingUserFilesViewController.swift in Sources */,
 				07F3A2931C6349CB00A7DA2B /* ViewController.swift in Sources */,
+				07ECF9231C687297007C385B /* README.md in Sources */,
 				07F3A2911C6349CB00A7DA2B /* AppDelegate.swift in Sources */,
 				07ECF9171C67138D007C385B /* SignInRootViewController.swift in Sources */,
 				0794EA1B1C6690010025CD87 /* SettingsViewController.swift in Sources */,
+				07ECF9251C6872A1007C385B /* CreateAccountRootViewController.swift in Sources */,
 				07ECF9191C6713DB007C385B /* CreateAccountViewController.swift in Sources */,
 				072115001C66C2870057ACD2 /* TroubleSigningInViewController.swift in Sources */,
 				07ECF91B1C6713F0007C385B /* SignInViewController.swift in Sources */,
-				07ECF9211C686774007C385B /* README.md in Sources */,
 				0794EA1D1C66A4410025CD87 /* TermsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
