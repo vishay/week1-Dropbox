@@ -14,7 +14,7 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 * [ ] Favoriting a file
 * [ ] Adding UITextFields and dismissing the keyboards
-* [ ] Swipe through screens
+* [x] Swipe through screens
 
 The following **additional** features are implemented:
 
@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Dropbox demo](demo-with-animations.gif)
+![Dropbox demo](dropbox-demo-with-optionals.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
