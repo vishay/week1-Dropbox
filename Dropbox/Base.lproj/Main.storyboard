@@ -926,6 +926,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BLr-GJ-B84">
                                         <rect key="frame" x="0.0" y="692" width="320" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="bFx-mq-KMX" kind="modal" id="jPE-2o-jc1"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
