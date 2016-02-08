@@ -1,4 +1,4 @@
-# Pre-work - week1-Dropbox
+# Week 1 - week1-Dropbox
 
 week1-Dropbox is a prototype of the Dropbox application.
 
