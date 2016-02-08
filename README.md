@@ -1,6 +1,6 @@
-# Pre-work - tips
+# Pre-work - week1-Dropbox
 
-tips is a tip calculator application for iOS.
+week1-Dropbox is a prototype of the Dropbox application.
 
 Submitted by: Vishay Nihalani
 
