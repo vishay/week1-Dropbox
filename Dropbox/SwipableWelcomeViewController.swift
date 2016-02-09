@@ -17,7 +17,6 @@ class SwipableWelcomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        swipableScrollView.frame = CGRectMake(0, 0, 320, 568)
         swipableScrollView.contentSize = CGSize(width: 960, height: 568)
     }
 

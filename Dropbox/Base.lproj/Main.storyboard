@@ -8,7 +8,6 @@
         <!--Swipable Welcome View Controller-->
         <scene sceneID="uBI-4n-dXW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5uW-b8-t5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Q0r-F9-aVh" customClass="SwipableWelcomeViewController" customModule="Dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FE7-fI-CBC">
                         <rect key="frame" x="0.0" y="0.0" width="960" height="568"/>
@@ -16,7 +15,7 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="wmr-xj-qgp">
                                 <rect key="frame" x="0.0" y="0.0" width="960" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome1" id="gnK-yc-uC9">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -62,6 +61,7 @@
                         <outlet property="swipableScrollView" destination="wmr-xj-qgp" id="49E-cw-gNY"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5uW-b8-t5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="599" y="402"/>
         </scene>
