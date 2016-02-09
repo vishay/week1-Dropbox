@@ -26,6 +26,7 @@ class ExistingUserFilesViewController: UIViewController {
     @IBAction func didTouchUpInsideFavoriteButton(sender: UIButton) {
     
         sender.selected = !sender.selected
+        NSUserDefaults.standardUserDefaults().setBool(sender.selected, forKey:"isFavorited")
     }
 
     

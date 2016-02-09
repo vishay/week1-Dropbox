@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		072115001C66C2870057ACD2 /* TroubleSigningInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072114FF1C66C2870057ACD2 /* TroubleSigningInViewController.swift */; };
+		0743E5091C696AF300087815 /* ExistingUserFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743E5081C696AF300087815 /* ExistingUserFavoritesViewController.swift */; };
 		0794EA1B1C6690010025CD87 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0794EA1A1C6690010025CD87 /* SettingsViewController.swift */; };
 		0794EA1D1C66A4410025CD87 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0794EA1C1C66A4410025CD87 /* TermsViewController.swift */; };
 		07ECF9131C6704D1007C385B /* ExistingUserFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECF9121C6704D1007C385B /* ExistingUserFilesViewController.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		072114FF1C66C2870057ACD2 /* TroubleSigningInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleSigningInViewController.swift; sourceTree = "<group>"; };
+		0743E5081C696AF300087815 /* ExistingUserFavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingUserFavoritesViewController.swift; sourceTree = "<group>"; };
 		0794EA1A1C6690010025CD87 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0794EA1C1C66A4410025CD87 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		07ECF9121C6704D1007C385B /* ExistingUserFilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingUserFilesViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				07F3A2901C6349CB00A7DA2B /* AppDelegate.swift */,
 				07F3A2921C6349CB00A7DA2B /* ViewController.swift */,
 				07F3A2941C6349CB00A7DA2B /* Main.storyboard */,
+				0743E5081C696AF300087815 /* ExistingUserFavoritesViewController.swift */,
 				07ECF9181C6713DB007C385B /* CreateAccountViewController.swift */,
 				072114FF1C66C2870057ACD2 /* TroubleSigningInViewController.swift */,
 				0794EA1C1C66A4410025CD87 /* TermsViewController.swift */,
@@ -288,6 +291,7 @@
 			files = (
 				07ECF9131C6704D1007C385B /* ExistingUserFilesViewController.swift in Sources */,
 				07F3A2931C6349CB00A7DA2B /* ViewController.swift in Sources */,
+				0743E5091C696AF300087815 /* ExistingUserFavoritesViewController.swift in Sources */,
 				07ECF9231C687297007C385B /* README.md in Sources */,
 				07F3A2911C6349CB00A7DA2B /* AppDelegate.swift in Sources */,
 				07ECF9171C67138D007C385B /* SignInRootViewController.swift in Sources */,

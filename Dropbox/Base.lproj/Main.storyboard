@@ -629,7 +629,7 @@
         <!--Favorites-->
         <scene sceneID="kJ8-mb-ZIX">
             <objects>
-                <viewController id="TN9-9u-Ty8" sceneMemberID="viewController">
+                <viewController id="TN9-9u-Ty8" customClass="ExistingUserFavoritesViewController" customModule="Dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AYq-Iy-pNT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -642,6 +642,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Favorites" id="T7B-7n-cKt"/>
+                    <connections>
+                        <outlet property="favoritesImageView" destination="2HN-1U-GhP" id="mrW-BJ-T5G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qXS-gX-mcK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
